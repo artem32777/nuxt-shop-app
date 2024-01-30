@@ -1,0 +1,1 @@
+import{_ as e}from"./ProductsList.vue.dQ0kcA8A.js";import{u as s}from"./product.store.n67LTkB7.js";import{f as r,c,b as n,h as a,o as u}from"./entry.cSY8xUwl.js";const f=r({__name:"index",setup(p){const t=s();return(_,m)=>{const o=e;return u(),c("div",null,[n(o,{products:a(t).get,"list-title":"Все кроссовки"},null,8,["products"])])}}});export{f as default};

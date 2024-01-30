@@ -1,0 +1,1 @@
+import{_ as s}from"./ProductsList.vue.dQ0kcA8A.js";import{u as c}from"./product.store.n67LTkB7.js";import{f as n,g as a,h as o,o as i}from"./entry.cSY8xUwl.js";const d=n({__name:"favorites",setup(p){const t=c();return(u,_)=>{const e=s;return i(),a(e,{products:o(t).get&&o(t).get.filter(r=>r.isFavorite),"list-title":"Избранное"},null,8,["products"])}}});export{d as default};
