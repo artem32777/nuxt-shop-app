@@ -1,0 +1,36 @@
+{
+  "name": "nuxt-shop-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "deploy": "gh-pages -d dist",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^6.11.1",
+    "gh-pages": "^6.1.1",
+    "nuxt": "^3.9.3",
+    "nuxt-icon": "^0.6.8",
+    "prettier": "^3.2.4",
+    "prettier-plugin-tailwindcss": "^0.5.11",
+    "shadcn-nuxt": "^0.8.7",
+    "typescript": "^5.3.3",
+    "vue": "^3.4.14",
+    "vue-router": "^4.2.5"
+  },
+  "dependencies": {
+    "@pinia/nuxt": "^0.5.1",
+    "@vueuse/core": "^10.7.2",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.0",
+    "lucide-vue-next": "^0.314.0",
+    "radix-vue": "^1.3.2",
+    "tailwind-merge": "^2.2.1",
+    "tailwindcss-animate": "^1.0.7",
+    "vue-sonner": "^1.0.3"
+  }
+}
